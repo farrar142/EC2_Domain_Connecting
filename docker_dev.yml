@@ -30,7 +30,7 @@ services:
 #wsl2방식은 도커를 돌리다보면
 #용량이 한도 끝도없이 늘어남.
 #mem_limit으로 용량제한.
-
+#
 #expose:
 # - "${port_num}"
 #도커 내부에서 컨테이너의 port_num을 노출시킴
