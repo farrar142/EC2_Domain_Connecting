@@ -34,7 +34,7 @@ services:
 #expose:
 # - "${port_num}"
 #도커 내부에서 컨테이너의 port_num을 노출시킴
-
+#
 #port:
 # - "${host_port}:${container_port}"
 # - 호스트의 포트와 컨테이너의 포트를 연결시킴.
