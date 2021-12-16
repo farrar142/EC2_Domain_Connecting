@@ -11,7 +11,7 @@ services:
       # 소스 폴더의 소스들과
       # 컨테이너 폴더의 소스들을 링크
     command:
-      - docker/wait.sh
+      - sudo docker/wait.sh
     expose:
       - "8000"
   nginx:
