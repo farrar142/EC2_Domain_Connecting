@@ -22,3 +22,4 @@ docker rmi -f ${docker_username}/${web_image_name}:${version}
 echo "=> Build new image..."
 echo "=> Run container..."
 sudo docker-compose -f docker_dev.yml up
+#
