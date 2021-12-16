@@ -66,7 +66,7 @@ TEMPLATES = [
         },
     },
 ]
-
+#
 WSGI_APPLICATION = 'SampleProject.wsgi.application'
 
 
